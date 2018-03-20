@@ -59,16 +59,16 @@ class App extends Component {
               <CardHeader style={divStyle1}className="head">Category</CardHeader>
               <CardBody>
                 <div className="row s4 m4 l4" onClick={this.fetchTechNews}>
-                  Tech News
+                  <a className="waves-effect waves-light" >Tech News</a>
                 </div>
                 <div className="row s4 m4 l4" onClick={this.fetchTopNews}>
-                  Top News
+                  <a className="waves-effect waves-light" >Top News</a>
                 </div>
                 <div className="row s4 m4 l4" onClick={this.fetchSportsNews}>
-                  Sports News
+                  <a className="waves-effect waves-light" >Sports News</a>
                 </div>
                 <div className="row s4 m4 l4" onClick={this.fetchWorldNews}>
-                  World News
+                  <a className="waves-effect waves-light" >World News</a>
                 </div>
               </CardBody>
             </Card>
