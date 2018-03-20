@@ -47,7 +47,7 @@ export default class News extends React.Component {
 							<a href={link}>{link}</a>
 						</div>
 						<div>
-							<a class="waves-effect waves-light btn" onClick={this.displayFullNews}>View Full News</a>
+							<a className="waves-effect waves-light" onClick={this.displayFullNews}>View Full News</a>
 						</div>
 						<div style={divStyle}className="row s9 m9 l9">
 							{content.plain}
@@ -80,8 +80,8 @@ export default class News extends React.Component {
 						<div style={divStyle}className="row s10 m10 l10">
 							{scontent}
 						</div>
-						<div className="row s1 m1 l1 btn1">
-							<a class="waves-effect waves-light btn" onClick={this.displayFullNews}>View Full News</a>
+						<div className="row s1 m1 l1">
+							<a className="waves-effect waves-light" onClick={this.displayFullNews}>View Full News</a>
 						</div>
 						<div style={divStyleAuthor}>
 							Author:{author}
