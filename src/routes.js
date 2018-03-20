@@ -1,6 +1,6 @@
 import React from 'react';
 import App from './containers/App';
-import {Route, IndexRedirect} from 'react-router';
+import {Route} from 'react-router';
 
 export const routes = (
 	<div>
