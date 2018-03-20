@@ -1,11 +1,8 @@
 import React from 'react';
-import {Link} from 'react-router';
-import {Card} from 'materialize-css';
 
 export default class News extends React.Component {
 	constructor(props) {
 	    super(props);
-		let { id, title, content, image,author,formatted_date} = this.props;
 	    this.contentData={};
 	    this.state={flag:'false'};
 		this.displayFullNews = this.displayFullNews.bind(this);
@@ -23,12 +20,9 @@ export default class News extends React.Component {
 		console.log(this.state);
 	}
 	render() {
-		let { id, title, content, image,author,link,formatted_date} = this.props;
+		let { title, content, image,author,link } = this.props;
 		var divStyle={
 			wordWrap:'break-word'
-		};
-		var dateOfPost={
-			paddingLeft:'10%'
 		};
 		var divStyleAuthor={
 			fontSize:'15px',
