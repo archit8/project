@@ -3,7 +3,7 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import * as actionCreators from '../actions/ActionCreators';
 import News from '../components/News';
-import { Card, CardHeader, CardBody, CardFooter } from "react-simple-card";
+import { Card, CardHeader, CardBody } from "react-simple-card";
 
 
 class App extends Component {
