@@ -1,0 +1,60 @@
+.imge{
+	width: 109%;
+	height:60%;
+}
+
+.heading{
+	font-size: 18px;
+}
+
+.heading:hover{
+   color: blue;
+}
+
+.head{
+	padding-left: 40%;
+	font-size: 40px;
+}
+
+.cardlayout{
+background-color: #FCF3CF  ;
+padding-left: 2%;
+z-index: 1;
+}
+
+.cardlayout:hover{
+border-color: blue  ;
+background-color:#f2f2f2;
+padding-left: 2%;
+z-index: 1;
+}
+
+
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.btn1:hover{
+	cursor: grab;
+}
