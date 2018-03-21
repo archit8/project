@@ -17,27 +17,27 @@ class App extends Component {
   }
 
   componentWillMount() {
-    this.props.actions.getNews();
+    this.props.actions.getByCategoryNews('tech');
     this.setState({header:'Tech News'});
   }
 
   fetchTopNews(){
-    this.props.actions.getTopNews();
+    this.props.actions.getByCategoryNews('top');
     this.setState({header:'Top News'});
   }
 
   fetchTechNews(){
-    this.props.actions.getNews();
+    this.props.actions.getByCategoryNews('tech');
     this.setState({header:'Tech News'});
   }
 
   fetchSportsNews(){
-    this.props.actions.getSportsNews();
+    this.props.actions.getByCategoryNews('sports');
     this.setState({header:'Sports News'});
   }
 
   fetchWorldNews(){
-    this.props.actions.getWorldNews();
+    this.props.actions.getByCategoryNews('world');
     this.setState({header:'World News'});
   }
 
